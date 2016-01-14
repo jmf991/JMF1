@@ -1,0 +1,39 @@
+$dark-purple: #343257;
+$light-purple: #5B5680;
+$yellow: #F7CE58;
+$dark-grey: #3A464C;
+
+
+
+/*colors*/
+$primary-color: rgba(4, 157, 254, 0.57);
+$active-color: $yellow;
+
+$font-color: #333333;
+
+$shade-0: #333333;
+$shade-1: #666666;
+$shade-2: #EEEEEE;
+$shade-3: #FFFFFF;
+
+$box-color: $shade-3; 
+$header-color: $shade-1;
+$footer-color: $shade-1;
+
+/*margins and paddings*/
+$global-padding: 10px;
+$global-margin: 10px;
+
+/*border*/
+$global-border: 1px solid #CCC;
+
+/*media queries breakpoints*/
+$desktop: 1170px;
+$tablet: 960px;
+$mobile: 520px;
+
+/*fonts*/
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+$global-font-family: Arial;
+.global-font { font-family: $global-font-family; font-size: 14px; line-height: 18px; font-weight: 400; color: #333;  }
+.headers { margin: 0 0 $global-margin*2 0; font-weight: 1000; font-family: 'Poiret One', cursive; }

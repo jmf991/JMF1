@@ -1,0 +1,121 @@
+
+/*bg colors*/
+.b1 { background: $primary-color; }
+.b2 { background: $active-color; }
+.b3 { background: $box-color; }
+
+
+.bg-shade-0 { background: $shade-0;}
+.bg-shade-1 { background: $shade-1;}
+.bg-shade-2 {background: $shade-2; }
+.bg-shade-3 {background: $shade-3; }
+
+
+
+/*font colors*/
+.c1 { color: $primary-color; }
+.c2 { color: $box-color; }
+.c3 { color: $shade-3; }
+/*float*/
+.fl { float: left !important; }
+.fr { float: right !important; }
+.clearfix { display: block; height: 1px; zoom: 1; width: 100%; clear: both; margin-bottom: -1px; }
+/*text align*/
+.tl { text-align: left !important; }
+.tr { text-align: right !important; }
+.tc { text-align: center !important; }
+	/*vertical align*/
+.vertical-align { height: 500px; line-height: 500px; text-align: center; }
+.vertical-align .va-wrapper { display: inline-block; *display: inline; *zoom: 1; line-height: normal; vertical-align: middle; }
+/*margins*/
+.m0 { margin: 0 !important; }
+.mt0 { margin-top: 0 !important; }
+.mr0 { margin-right: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+.ml0 { margin-left: 0 !important; }
+.m10 { margin: 10px !important; }
+.m20 { margin: 20px !important; }
+.mt5 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt15 { margin-top: 15px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt30 { margin-top: 30px !important; }
+.mt60 { margin-top: 60px !important; }
+.mt100 { margin-top: 100px !important; }
+.mr10 { margin-right: 10px !important; }
+.mr15 { margin-right: 15px !important; }
+.mb5 { margin-bottom: 5px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.ml10 { margin-left: 10px !important; }
+.ml20 { margin-left: 20px !important; }
+.ml70 { margin-left: 70px !important; }
+.ml80 { margin-left: 80px !important; }
+.ml90 { margin-left: 90px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb40 { margin-bottom: 40px !important; }
+.mb50 { margin-bottom: 50px !important; }
+.mb80 { margin-bottom: 80px !important; }
+.mb120 { margin-bottom: 120px !important; }
+
+.mvertical10 {margin: 10px 0px 10px 0px !important;}
+.mhorizontal10 {margin: 0px 10px 0px 10px !important;}
+
+.pvertical10 {padding: 10px 0px 10px 0px !important;}
+
+
+.global-border { border: $global-border; }
+
+
+/*paddings*/
+.p0 { padding: 0 !important; }
+.pt0 { padding-top: 0 !important; }
+.pt10 { padding-top: 10px !important; }
+.pt20 { padding-top: 20px !important; }
+.pt30 { padding-top: 30px !important; }
+.pt50 { padding-top: 50px !important; }
+.pt60 { padding-top: 60px !important; }
+.pt90 { padding-top: 90px !important; }
+.pr0 { padding-right: 0 !important; }
+.pb0 { padding-bottom: 0 !important; }
+.pb12 { padding-bottom: 12px !important; }
+.pb20 { padding-bottom: 20px !important; }
+.pb40 { padding-bottom: 40px !important; }
+.pb50 { padding-bottom: 50px !important; }
+.pl0 { padding-left: 0 !important; }
+.pl10 { padding-left: 10px !important; }
+.pl20 { padding-left: 20px !important; }
+.p5 { padding: 5px !important; }
+.p-5 { padding: -5px !important; }
+.p10 { padding: 10px !important; }
+.pr10 {padding-right: 10px !important;}
+.pr20 { padding-right: 20px !important; }
+.pr50 { padding-right: 50px !important; }
+.p20 { padding: 20px !important; }
+
+/*borders*/
+.bb0 { border-bottom: 0 !important; }
+/*width*/
+.fullwidth { width: 100%; max-width: none; }
+/*visibility*/
+.hidden { display: none; }
+.visible { display: block; }
+@media (max-width: $tablet) {
+
+.mobile-hidden { display: none; }
+}
+
+/*effects*/
+.shadow { -webkit-box-shadow: 10px 10px 10px 10px #000; -moz-box-shadow: 10px 10px 10px 10px #000; box-shadow: 10px 10px 10px 10px #000; behavior: url(/assets/pie/pie.htc); }
+.radius { -webkit-border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; behavior: url(/assets/pie/pie.htc); }
+/*text*/
+.ellipsis { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -ms-text-overflow: ellipsis; display: inline-block; max-width: 100%; }
+.uppercase { text-transform: uppercase; }
+/*position*/
+.relative { position: relative !important; }
+.absolute { position: absolute !important; }
+/*width*/
+.auto-width { width: auto !important; }
+.overflow-hidden { overflow: hidden; }
+
+
+

@@ -1,0 +1,30 @@
+@import "../../assets/gstring/main";
+@import "content/_boxes";
+@import "content/_tables";
+@import "content/_menu";
+
+
+/*general styles*/
+
+.extra-fucking-big {font-size: 100px;}
+.big-font {font-size: 20px;}
+
+.full-width {width: 100%;}
+@media (min-width: $tablet) {.drop-down-wrapper {float: right;}}
+.big-text-area {height: 120px;padding: 15px;}
+.fa-big {font-size: 70px !important;}
+.fa-medium {font-size: 50px !important;}
+
+.tc {text-align: center !important;}
+
+.logo {border: 50px; margin-top:4px;}
+.logo img { max-width:175px; }
+.logo-small img { max-width:100px; }
+
+.extrabig-center-font { font-size: 119px; line-height: 140px; text-align: center;}
+.big-center-font { font-size: 18px; text-align: center;}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}

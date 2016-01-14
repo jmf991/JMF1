@@ -1,0 +1,22 @@
+﻿
+/*tables*/
+/*---------------------------------------------*/
+
+table {border: 1px solid $dark-purple;}
+
+table tr {}
+
+table tr th {color: white;background: $dark-purple;}
+
+table tr:nth-child(2n+1) {background: #e8eff9;}
+
+table tr {background: #FFFFFF;}
+
+table tr:nth-child(2) {background: #f8d9d8;}
+
+table tr:nth-child(3) {background: #c0f3d3;}
+
+table tr {border: 2px 0px solid #FFFFFF;}
+
+table tr th,
+table tr td {padding: 5px 10px;}

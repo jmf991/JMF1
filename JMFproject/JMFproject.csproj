@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7AA542FF-D306-4DD3-8231-8A49B943F6A8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JMFproject</RootNamespace>
+    <AssemblyName>JMFproject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\gstring\components\icons\css\font-awesome-ie7.css" />
+    <Content Include="assets\gstring\components\icons\css\font-awesome.min.css" />
+    <Content Include="assets\gstring\components\icons\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\gstring\main.css">
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
+    <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
+    <Content Include="assets\images\samples\blog-post-image4.jpg" />
+    <Content Include="assets\images\desktop.png" />
+    <Content Include="assets\images\samples\gardenhouse.jpg" />
+    <Content Include="assets\images\laptop2.png" />
+    <Content Include="assets\images\mobile2.png" />
+    <Content Include="assets\images\platforms2.png" />
+    <Content Include="assets\images\samples\portfoliolivingroom.jpg" />
+    <Content Include="assets\images\samples\portfoliopoolhouse.jpg" />
+    <Content Include="assets\images\samples\portfoliosunsetbridge.jpg" />
+    <Content Include="assets\images\samples\portfoliotwistedbridge.jpg" />
+    <Content Include="assets\images\samples\service2 %281%29.jpg" />
+    <Content Include="assets\images\samples\service2.jpg" />
+    <Content Include="assets\images\samples\service4.jpg" />
+    <Content Include="assets\images\space-wallpaper-29.jpg" />
+    <Content Include="assets\images\tablet2.png" />
+    <Content Include="assets\scripts\functions.js" />
+    <Content Include="assets\scripts\lib\isotope.js" />
+    <Content Include="assets\scripts\lib\parallax.js" />
+    <Content Include="assets\scripts\main.js" />
+    <Content Include="assets\styles\content\colors.css" />
+    <Content Include="assets\styles\main.css">
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
+    <Content Include="packages.config" />
+    <Content Include="assets\gstring\components\icons\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\gstring\components\icons\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\gstring\components\icons\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\gstring\components\icons\fonts\FontAwesome.otf" />
+    <Content Include="assets\gstring\components\modules\_accordion.scss" />
+    <Content Include="assets\gstring\components\modules\_forms.scss" />
+    <Content Include="assets\gstring\components\modules\_impulses.scss" />
+    <Content Include="assets\gstring\components\modules\_lightbox.scss" />
+    <Content Include="assets\gstring\components\modules\_navs.scss" />
+    <Content Include="assets\gstring\components\modules\_nestedNav.scss" />
+    <Content Include="assets\gstring\components\modules\_notifications.scss" />
+    <Content Include="assets\gstring\components\modules\_sgbak\_dropdownNav.scss.1112444.2.2014-11-04.11-15-32.2228" />
+    <Content Include="assets\gstring\components\modules\_sgbak\_dropdownNav.scss.1112444.2.2014-11-06.16-55-21.0524" />
+    <Content Include="assets\gstring\components\modules\_sgbak\_slider.scss.1112445.2.2014-11-06.16-55-21.0654" />
+    <Content Include="assets\gstring\components\modules\_shareTools.scss" />
+    <Content Include="assets\gstring\components\modules\_slider.scss" />
+    <Content Include="assets\gstring\components\modules\_tabs.scss" />
+    <Content Include="assets\gstring\components\_animations.scss" />
+    <Content Include="assets\gstring\components\_font.scss" />
+    <Content Include="assets\gstring\components\_global.scss" />
+    <Content Include="assets\gstring\components\_grid.scss" />
+    <Content Include="assets\gstring\components\_hacks.scss" />
+    <Content Include="assets\gstring\components\_helpers.scss" />
+    <Content Include="assets\gstring\components\_modules.scss" />
+    <Content Include="assets\gstring\components\_resets.scss" />
+    <Content Include="assets\gstring\main.css.map" />
+    <Content Include="assets\gstring\main.scss" />
+    <Content Include="assets\gstring\_variables.scss" />
+    <Content Include="assets\styles\content\_boxes.scss" />
+    <Content Include="assets\styles\content\_menu.scss" />
+    <Content Include="assets\styles\content\_tables.scss" />
+    <Content Include="assets\styles\main.css.map" />
+    <Content Include="assets\styles\main.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JMF-landingPage.aspx" />
+    <Content Include="statics\content\modules\masonry\isotope\isotope.html" />
+    <Content Include="statics\content\modules\masonry\isotope\isotoperandom.html" />
+    <Content Include="statics\content\modules\masonry\isotope\item1.html" />
+    <Content Include="statics\content\modules\masonry\isotope\item2.html" />
+    <Content Include="statics\content\modules\masonry\isotope\item3.html" />
+    <Content Include="statics\content\modules\masonry\isotope\item4.html" />
+    <Content Include="statics\content\modules\masonry\isotope\item5.html" />
+    <Content Include="statics\content\modules\masonry\masonrycontainer.html" />
+    <Content Include="statics\master\header\head.html" />
+    <Content Include="statics\master\header\header.html" />
+    <Content Include="statics\master\header\headerBottom.html" />
+    <Content Include="statics\master\header\headerTop.html" />
+    <Content Include="statics\master\header\navigationBar.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JMF-landingPage.aspx.cs">
+      <DependentUpon>JMF-landingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JMF-landingPage.aspx.designer.cs">
+      <DependentUpon>JMF-landingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="statics\master\footer\" />
+    <Folder Include="templates\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51708</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51708/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
