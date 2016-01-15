@@ -13,14 +13,15 @@
     <!--/ header -->
     <section>
         <!--work section -->
-        <!--#include virtual="/statics/content/modules/gridSection.html"-->
+        <!--#include virtual="/statics/content/modules/gridSection/gridSection.html"-->
     </section>
     <section>
         <!--banner 1 section -->
-        <!--#include virtual="/statics/content/modules/bannerParallaxSection.html"-->
+        <!--#include virtual="/statics/content/modules/bannerParallaxSection/bannerParallaxSection.html"-->
     </section>
     <section>
         <!--services section -->
+        <!--#include virtual="/statics/content/modules/gridSection/gridSection2.html"-->
     </section>
     <section>
         <!--banner 2 section -->

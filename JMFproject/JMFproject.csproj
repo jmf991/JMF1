@@ -75,20 +75,14 @@
     <Content Include="assets\images\backgrounds-14.jpg" />
     <Content Include="assets\images\blurred1.jpg" />
     <Content Include="assets\images\blurry-circles.png" />
-    <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
-    <Content Include="assets\images\samples\blog-post-image4.jpg" />
     <Content Include="assets\images\desktop.png" />
-    <Content Include="assets\images\samples\gardenhouse.jpg" />
+    <Content Include="assets\images\samples\cms-icon.png" />
+    <Content Include="assets\images\samples\cross-icon.png" />
     <Content Include="assets\images\laptop2.png" />
     <Content Include="assets\images\mobile2.png" />
     <Content Include="assets\images\platforms2.png" />
-    <Content Include="assets\images\samples\portfoliolivingroom.jpg" />
-    <Content Include="assets\images\samples\portfoliopoolhouse.jpg" />
-    <Content Include="assets\images\samples\portfoliosunsetbridge.jpg" />
-    <Content Include="assets\images\samples\portfoliotwistedbridge.jpg" />
-    <Content Include="assets\images\samples\service2 %281%29.jpg" />
-    <Content Include="assets\images\samples\service2.jpg" />
-    <Content Include="assets\images\samples\service4.jpg" />
+    <Content Include="assets\images\samples\html5-icon.png" />
+    <Content Include="assets\images\samples\mobile-icon.png" />
     <Content Include="assets\images\space-wallpaper-29.jpg" />
     <Content Include="assets\images\SplitShire-03692.jpg" />
     <Content Include="assets\images\tablet2.png" />
@@ -144,8 +138,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JMF-landingPage.aspx" />
-    <Content Include="statics\content\modules\bannerParallaxSection.html" />
-    <Content Include="statics\content\modules\gridSection.html" />
+    <Content Include="statics\content\modules\bannerParallaxSection\bannerParallaxSection.html" />
+    <Content Include="statics\content\modules\gridSection\gridSection.html" />
+    <Content Include="statics\content\modules\gridSection\gridSection2.html" />
     <Content Include="statics\master\header\head.html" />
     <Content Include="statics\master\header\header.html" />
     <Content Include="statics\master\header\headerBottom.html" />
