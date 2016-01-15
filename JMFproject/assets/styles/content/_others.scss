@@ -1,0 +1,88 @@
+﻿.parallax-window {
+    min-height: 680px;
+    background: transparent;
+}
+
+.logo-title {
+    color:white;
+    font-size: 110px;
+    line-height: 350px;
+    margin: 0 0 48px 0;
+    text-align: center;
+
+}
+.logo-title-small   {
+    color:white;
+    font-size: 70px;
+    line-height: 350px;
+    margin: 0 0 48px 0;
+    text-align: center;
+} 
+
+
+.logo-title-2 {
+    color:black;
+    }
+
+
+
+
+/*colors*/
+.white { color:white;}
+.black { color:black;}
+.bg-black { background-color: black;}
+
+
+/* Ripple Out */
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  }
+.hvr-ripple-out:before {
+  content: '';
+  position: absolute;
+  border: black solid 6px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  cursor:pointer;
+}
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
+  
+}
+
+
+
+

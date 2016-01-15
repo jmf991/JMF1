@@ -1164,7 +1164,9 @@ ul.tabs-menu {
 /*******TABS END******/
 /*******DROPDOWN MENU START******/
 .drop-down-wrapper {
-  z-index: 2; }
+  z-index: 2;
+  background-color: black;
+  height: 50px; }
 
 .drop-down-menu, .drop-down-menu ul {
   list-style: none;
@@ -1193,8 +1195,7 @@ ul.tabs-menu {
   content: "\f107"; }
 
 .drop-down-menu .menu-item {
-  display: inline-block;
-  color: blue; }
+  display: inline-block; }
 
 .drop-down-menu .menu-item a {
   display: block;
@@ -1204,7 +1205,7 @@ ul.tabs-menu {
 .drop-down-menu .menu-item a:hover, .drop-down-menu .menu-item a:focus, .drop-down-menu .menu-item a.active {
   background: black;
   text-decoration: none;
-  color: #fff; }
+  color: #fff !important; }
 
 .drop-down-menu .menu-item .drop-down {
   display: none; }

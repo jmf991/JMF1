@@ -72,6 +72,9 @@
     <Content Include="assets\gstring\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
+    <Content Include="assets\images\backgrounds-14.jpg" />
+    <Content Include="assets\images\blurred1.jpg" />
+    <Content Include="assets\images\blurry-circles.png" />
     <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
     <Content Include="assets\images\samples\blog-post-image4.jpg" />
     <Content Include="assets\images\desktop.png" />
@@ -87,12 +90,13 @@
     <Content Include="assets\images\samples\service2.jpg" />
     <Content Include="assets\images\samples\service4.jpg" />
     <Content Include="assets\images\space-wallpaper-29.jpg" />
+    <Content Include="assets\images\SplitShire-03692.jpg" />
     <Content Include="assets\images\tablet2.png" />
     <Content Include="assets\scripts\functions.js" />
-    <Content Include="assets\scripts\lib\isotope.js" />
     <Content Include="assets\scripts\lib\parallax.js" />
     <Content Include="assets\scripts\main.js" />
     <Content Include="assets\styles\content\colors.css" />
+    <Content Include="assets\styles\content\main.css" />
     <Content Include="assets\styles\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
@@ -130,6 +134,7 @@
     <Content Include="assets\styles\content\_tables.scss" />
     <Content Include="assets\styles\main.css.map" />
     <Content Include="assets\styles\main.scss" />
+    <Content Include="assets\styles\content\_others.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,14 +144,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JMF-landingPage.aspx" />
-    <Content Include="statics\content\modules\masonry\isotope\isotope.html" />
-    <Content Include="statics\content\modules\masonry\isotope\isotoperandom.html" />
-    <Content Include="statics\content\modules\masonry\isotope\item1.html" />
-    <Content Include="statics\content\modules\masonry\isotope\item2.html" />
-    <Content Include="statics\content\modules\masonry\isotope\item3.html" />
-    <Content Include="statics\content\modules\masonry\isotope\item4.html" />
-    <Content Include="statics\content\modules\masonry\isotope\item5.html" />
-    <Content Include="statics\content\modules\masonry\masonrycontainer.html" />
+    <Content Include="statics\content\modules\bannerParallaxSection.html" />
+    <Content Include="statics\content\modules\gridSection.html" />
     <Content Include="statics\master\header\head.html" />
     <Content Include="statics\master\header\header.html" />
     <Content Include="statics\master\header\headerBottom.html" />

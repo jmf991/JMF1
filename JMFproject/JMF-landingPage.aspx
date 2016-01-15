@@ -13,13 +13,11 @@
     <!--/ header -->
     <section>
         <!--work section -->
-        <div class="box-container-wide">
-            <!--#include virtual="/statics/content/modules/masonry/masonrycontainer.html"-->
-            <div class="clearfix"></div>
-        </div>
+        <!--#include virtual="/statics/content/modules/gridSection.html"-->
     </section>
     <section>
         <!--banner 1 section -->
+        <!--#include virtual="/statics/content/modules/bannerParallaxSection.html"-->
     </section>
     <section>
         <!--services section -->
