@@ -1655,6 +1655,7 @@ table tr td {
   min-height: 680px;
   background: transparent; }
 
+/*titles*/
 .logo-title {
   color: white;
   font-size: 110px;
@@ -1671,6 +1672,11 @@ table tr td {
 
 .logo-title-2 {
   color: black; }
+
+/*borders*/
+.underline-light {
+  border-bottom: 1px solid black;
+  padding-bottom: 3px; }
 
 /*colors*/
 .white {
