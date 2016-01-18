@@ -106,8 +106,6 @@
     <Content Include="assets\scripts\functions.js" />
     <Content Include="assets\scripts\lib\parallax-mouse.js" />
     <Content Include="assets\scripts\lib\parallax.js" />
-    <Content Include="assets\scripts\lib\roll.js" />
-    <Content Include="assets\scripts\lib\roll_standalone.js" />
     <Content Include="assets\scripts\main.js" />
     <Content Include="assets\styles\content\colors.css" />
     <Content Include="assets\styles\content\main.css" />
