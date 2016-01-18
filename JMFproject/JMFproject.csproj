@@ -89,6 +89,7 @@
     <Content Include="assets\images\samples\imagsadddsaes.jpg" />
     <Content Include="assets\images\samples\maps-icon.png" />
     <Content Include="assets\images\samples\mobile-icon.png" />
+    <Content Include="assets\images\samples\p1-circle.png" />
     <Content Include="assets\images\samples\parallax-icon.png" />
     <Content Include="assets\images\samples\php-icon.png" />
     <Content Include="assets\images\samples\point of light.png" />
