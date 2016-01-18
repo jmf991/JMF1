@@ -1,0 +1,42 @@
+    .header-bottom {
+        background: url(/assets/images/blurry-circles.png) no-repeat 0 0 transparent;
+        position: relative;
+    }
+
+    .parallax-wrapper {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    }
+    .para-item-wrapper {
+        width: 100%; height: 100%; 
+
+    }
+    .para-item-wrapper .item {
+        width: 100px; height: 100px; opacity: 0.6;
+        left: calc(50% - 150px); top:  calc(50% - 250px);
+        position: absolute;
+    }
+    .para-item-wrapper .item2 {
+        width: 80px; height: 80px; opacity: 0.6;
+        left: calc(50% - 40px); top:  calc(50% - 40px);
+        position: absolute;
+        margin-left: 5%;
+    }
+        .para-item-wrapper .item3 {
+        width: 60px; height: 60px; opacity: 0.6;
+        left: calc(50% - 300px); top:  calc(50% - 10px);
+        position: absolute;
+        margin-left: 10%;
+    }
+                .para-item-wrapper .item4 {
+        width: 40px; height: 60px; opacity: 0.6;
+        left: calc(50% - 300px); top:  calc(50% - 10px);
+        position: absolute;
+        margin-left: 10%;
+    }
+                        .para-item-wrapper .item5 {
+        width: 60px; height: 60px; opacity: 0.6;
+        left: calc(50% - 300px); top:  calc(50% - 10px);
+        position: absolute;
+        margin-left: 10%;
+    }
+

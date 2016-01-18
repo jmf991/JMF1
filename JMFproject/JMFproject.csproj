@@ -91,8 +91,11 @@
     <Content Include="assets\images\samples\mobile-icon.png" />
     <Content Include="assets\images\samples\parallax-icon.png" />
     <Content Include="assets\images\samples\php-icon.png" />
+    <Content Include="assets\images\samples\point of light.png" />
+    <Content Include="assets\images\samples\purplelightpoint.png" />
     <Content Include="assets\images\samples\screen-landing-content.jpg" />
     <Content Include="assets\images\samples\tools-icon.png" />
+    <Content Include="assets\images\samples\yellow light.png" />
     <Content Include="assets\images\space-wallpaper-29.jpg" />
     <Content Include="assets\images\SplitShire-03692.jpg" />
     <Content Include="assets\images\tablet2.png" />
@@ -142,6 +145,7 @@
     <Content Include="assets\styles\main.css.map" />
     <Content Include="assets\styles\main.scss" />
     <Content Include="assets\styles\content\_others.scss" />
+    <Content Include="assets\gstring\components\modules\_parallax.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
