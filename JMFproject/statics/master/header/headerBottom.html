@@ -1,6 +1,28 @@
 ﻿<style>
-    .parallax-bg {
+    .header-bottom {
+        background: url(/assets/images/blurry-circles.png) no-repeat 0 0 transparent;
+        position: relative;
     }
+
+    .parallax-wrapper {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    }
+    .para-item-wrapper {
+        width: 100%; height: 100%; 
+
+    }
+    .para-item-wrapper .item {
+        width: 100px; height: 100px; background: #FFF; opacity: 0.6;
+        left: calc(50% - 50px); top:  calc(50% - 50px);
+        position: absolute;
+    }
+    .para-item-wrapper .item2 {
+        width: 80px; height: 80px; background: #FFF; opacity: 0.6;
+        left: calc(50% - 40px); top:  calc(50% - 40px);
+        position: absolute;
+        margin-left: 5%;
+    }
+
 </style>
 
 
@@ -9,30 +31,33 @@
 
 
 <div class="header-bottom mb40">
-    <div class="parallax-wrapper">
-        <div class="parallax-bg" id="paralax">
-            <div class="layer expand-width" data-depth="1.00"><button>layer[6]</button></div>
-            <div class="layer expand-width" data-depth="0.20"><button>layer[1]</button></div>
+
+        <div class="parallax-wrapper" id="js-paralax">
+            <div class="layer expand-width para-item-wrapper" data-depth="1.00">
+                <button class="item">layer[6]</button>
+            </div>
+
+            <div class="layer expand-width para-item-wrapper" data-depth="0.80">
+                <button class="item2" style="">layer[6]</button>
+            </div>
         </div>
 
-    </div>
+
+    <div class="box-container-wide tc">
+        <div class="box-12">
+            <div class="inner">
+                <h1><span class="logo-title">JMF</span></h1>
+                <h2><span class="black">WEB SOLUTIONS</span></h2>
 
 
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/images/blurry-circles.png">
-        <div class="box-container-wide tc">
-            <div class="box-12">
-                <div class="inner">
-                    <h1><span class="logo-title">JMF</span></h1>
-                    <h2><span class="black">WEB SOLUTIONS</span></h2>
 
-  
-
-
-                </div>
             </div>
         </div>
     </div>
+
+
+  
     <!--#include virtual="/statics/master/header/navigationBar.html"-->
     <div class="clearfix"></div>
 </div>

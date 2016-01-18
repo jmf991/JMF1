@@ -97,6 +97,7 @@
     <Content Include="assets\images\SplitShire-03692.jpg" />
     <Content Include="assets\images\tablet2.png" />
     <Content Include="assets\scripts\functions.js" />
+    <Content Include="assets\scripts\lib\parallax-mouse.js" />
     <Content Include="assets\scripts\lib\parallax.js" />
     <Content Include="assets\scripts\lib\roll.js" />
     <Content Include="assets\scripts\lib\roll_standalone.js" />

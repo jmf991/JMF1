@@ -36,6 +36,8 @@
     </section>
     <!--footer-->
     <!--/ header -->
+
+    <script src="/assets/scripts/lib/parallax-mouse.js"></script>
 </body>
 </html>
 
