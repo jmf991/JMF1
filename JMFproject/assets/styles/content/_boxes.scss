@@ -2,3 +2,24 @@
 /*------------------------------------------*/
 .box { position: relative; }
 .box-container-wide { margin: 0 auto; clear: left; overflow: visible; padding: 0;; padding-left: 0 !important; padding-right: 0 !important;}
+
+
+.member-container {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.image-container {
+    border: 1px solid;
+    border-radius: 100% 100% 100% 100%;
+    display: inline-block;
+    height: 218px;
+    overflow: hidden;
+    padding: 3px;
+    width: 218px;
+     }
+.img.member-photo {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    }

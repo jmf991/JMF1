@@ -25,9 +25,11 @@
     </section>
     <section>
         <!--banner 2 section -->
+        <!--#include virtual="/statics/content/modules/bannerParallaxSection/bannerParallaxSection2.html"-->
     </section>
     <section>
         <!--about section -->
+        <!--#include virtual="/statics/content/modules/aboutSection/aboutSection.html"-->
     </section>
     <section>
         <!--contact section -->

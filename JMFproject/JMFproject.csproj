@@ -76,18 +76,30 @@
     <Content Include="assets\images\blurred1.jpg" />
     <Content Include="assets\images\blurry-circles.png" />
     <Content Include="assets\images\desktop.png" />
+    <Content Include="assets\images\monitor.png" />
+    <Content Include="assets\images\samples\73322df46c524c8efccf876bdeb692f2-details.jpg" />
+    <Content Include="assets\images\samples\blur-blurred-background.jpg" />
+    <Content Include="assets\images\samples\blurred-w.jpg" />
     <Content Include="assets\images\samples\cms-icon.png" />
     <Content Include="assets\images\samples\cross-icon.png" />
     <Content Include="assets\images\laptop2.png" />
     <Content Include="assets\images\mobile2.png" />
     <Content Include="assets\images\platforms2.png" />
     <Content Include="assets\images\samples\html5-icon.png" />
+    <Content Include="assets\images\samples\imagsadddsaes.jpg" />
+    <Content Include="assets\images\samples\maps-icon.png" />
     <Content Include="assets\images\samples\mobile-icon.png" />
+    <Content Include="assets\images\samples\parallax-icon.png" />
+    <Content Include="assets\images\samples\php-icon.png" />
+    <Content Include="assets\images\samples\screen-landing-content.jpg" />
+    <Content Include="assets\images\samples\tools-icon.png" />
     <Content Include="assets\images\space-wallpaper-29.jpg" />
     <Content Include="assets\images\SplitShire-03692.jpg" />
     <Content Include="assets\images\tablet2.png" />
     <Content Include="assets\scripts\functions.js" />
     <Content Include="assets\scripts\lib\parallax.js" />
+    <Content Include="assets\scripts\lib\roll.js" />
+    <Content Include="assets\scripts\lib\roll_standalone.js" />
     <Content Include="assets\scripts\main.js" />
     <Content Include="assets\styles\content\colors.css" />
     <Content Include="assets\styles\content\main.css" />
@@ -138,7 +150,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JMF-landingPage.aspx" />
+    <Content Include="statics\content\modules\aboutSection\aboutSection.html" />
     <Content Include="statics\content\modules\bannerParallaxSection\bannerParallaxSection.html" />
+    <Content Include="statics\content\modules\bannerParallaxSection\bannerParallaxSection2.html" />
+    <Content Include="statics\content\modules\contactSection\contactSection.html" />
     <Content Include="statics\content\modules\gridSection\gridSection.html" />
     <Content Include="statics\content\modules\gridSection\gridSection2.html" />
     <Content Include="statics\master\header\head.html" />
