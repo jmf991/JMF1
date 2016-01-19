@@ -33,6 +33,7 @@
     </section>
     <section>
         <!--contact section -->
+        <!--#include virtual="/statics/content/modules/contactSection/contactSection.html"-->
     </section>
     <!--footer-->
     <!--/ header -->

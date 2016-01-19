@@ -23,3 +23,35 @@
     max-width: 100%;
     width: auto;
     }
+
+
+.contact-form-wrap {position:relative;}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+
+/*button boxes*/
+
+.btn-border-bottom {
+    display: inline-block; 
+    color: White;  
+    border: none; 
+    cursor: pointer; 
+    margin-right: 10px;  
+    font-size: 16px; 
+    background: black; 
+    padding: 9px 10px; 
+    border-bottom: 3px solid #FED204;
+}
+
+.corner-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    margin-right: 0;
+}
+
