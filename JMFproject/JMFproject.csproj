@@ -72,13 +72,10 @@
     <Content Include="assets\gstring\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
-    <Content Include="assets\images\backgrounds-14.jpg" />
     <Content Include="assets\images\blurred1.jpg" />
     <Content Include="assets\images\blurry-circles.png" />
     <Content Include="assets\images\desktop.png" />
     <Content Include="assets\images\monitor.png" />
-    <Content Include="assets\images\samples\73322df46c524c8efccf876bdeb692f2-details.jpg" />
-    <Content Include="assets\images\samples\blur-blurred-background.jpg" />
     <Content Include="assets\images\samples\blurred-w.jpg" />
     <Content Include="assets\images\samples\cms-icon.png" />
     <Content Include="assets\images\samples\cross-icon.png" />
@@ -100,7 +97,6 @@
     <Content Include="assets\images\samples\tablet3.png" />
     <Content Include="assets\images\samples\tools-icon.png" />
     <Content Include="assets\images\samples\yellow light.png" />
-    <Content Include="assets\images\space-wallpaper-29.jpg" />
     <Content Include="assets\images\SplitShire-03692.jpg" />
     <Content Include="assets\images\tablet2.png" />
     <Content Include="assets\scripts\functions.js" />
@@ -162,6 +158,7 @@
     <Content Include="statics\content\modules\aboutSection\aboutSection.html" />
     <Content Include="statics\content\modules\bannerParallaxSection\bannerParallaxSection.html" />
     <Content Include="statics\content\modules\bannerParallaxSection\bannerParallaxSection2.html" />
+    <Content Include="statics\content\modules\bannerParallaxSection\bannerParallaxSection3.html" />
     <Content Include="statics\content\modules\contactSection\contactSection.html" />
     <Content Include="statics\content\modules\gridSection\gridSection.html" />
     <Content Include="statics\content\modules\gridSection\gridSection2.html" />

@@ -33,19 +33,4 @@
 .drop-down-menu { display: block !important; opacity: 1 !important; }
 
 }
-/*tablet and below*/
-@media only screen and (max-width: $tablet) {
-    .drop-down-menu .menu-item {  display: block; }
-	.drop-down-menu .drop-down { position: relative; overflow: hidden; }
-	.drop-down-menu .drop-down,
-	.drop-down-menu .drop-down .menu-item { background-color: $shade-3; top: 0 !important; display: block; }
-	.drop-down-menu .drop-down .menu-item .menu-indicator:before { content: "\f107"; }
-	.drop-down-menu .drop-down .drop-down {  left: 0; }
-	.drop-down-menu .drop-down .menu-item .drop-down .menu-item a { color: $font-color; }
-	.mobile-nav-trigger { display: block; }
-	.drop-down-menu { display: none; width: 100%; clear: both; }
-	.drop-down-menu .menu-item:hover .drop-down,
-	.drop-down-menu .menu-item:hover .drop-down .menu-item:hover .drop-down { display: none; }
-
-}
 /*******DROPDOWN MENU END******/

@@ -34,6 +34,10 @@
     </section>
     <section>
         <!--contact section -->
+        <!--#include virtual="/statics/content/modules/bannerParallaxSection/bannerParallaxSection3.html"-->
+    </section>
+    <section>
+        <!--contact section -->
         <!--#include virtual="/statics/content/modules/contactSection/contactSection.html"-->
     </section>
     <!--footer-->
