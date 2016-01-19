@@ -1932,7 +1932,14 @@ table tr td {
   .parallax-banner-window {
     display: none;
     height: 0%;
-    width: 0%; } }
+    width: 0%; }
+
+  .logo-title-small {
+    color: dimgrey !important;
+    font-size: 45px !important;
+    line-height: 70px !important;
+    margin: 0 0 48px 0;
+    text-align: center; } }
 /*titles*/
 .logo-title {
   color: white;
