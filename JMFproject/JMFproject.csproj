@@ -76,6 +76,8 @@
     <Content Include="assets\images\blurry-circles.png" />
     <Content Include="assets\images\desktop.png" />
     <Content Include="assets\images\monitor.png" />
+    <Content Include="assets\images\samples\blue-background.jpg" />
+    <Content Include="assets\images\samples\blurred-image-7588-7881-hd-wallpapers.jpg" />
     <Content Include="assets\images\samples\blurred-w.jpg" />
     <Content Include="assets\images\samples\cms-icon.png" />
     <Content Include="assets\images\samples\cross-icon.png" />
