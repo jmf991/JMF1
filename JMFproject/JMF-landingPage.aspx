@@ -10,6 +10,7 @@
 <body>
     <!--header -->
     <!--#include virtual="/statics/master/header/header.html"-->
+    <!--#include virtual="/statics/master/header/navigationBar.html"-->
     <!--/ header -->
     <section>
         <!--work section -->

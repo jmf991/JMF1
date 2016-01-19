@@ -592,7 +592,7 @@ pre {
     width: 8.333332%; } }
 .header-bottom {
   background: url(/assets/images/blurry-circles.png) no-repeat 0 0 transparent;
-  position: relative; }
+  min-height: 640px; }
 
 .parallax-wrapper {
   position: absolute;
