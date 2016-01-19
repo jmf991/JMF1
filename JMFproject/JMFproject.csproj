@@ -160,6 +160,7 @@
     <Content Include="statics\content\modules\bannerParallaxSection\bannerParallaxSection2.html" />
     <Content Include="statics\content\modules\bannerParallaxSection\bannerParallaxSection3.html" />
     <Content Include="statics\content\modules\contactSection\contactSection.html" />
+    <Content Include="statics\content\modules\footerSection\footerSection.html" />
     <Content Include="statics\content\modules\gridSection\gridSection.html" />
     <Content Include="statics\content\modules\gridSection\gridSection2.html" />
     <Content Include="statics\master\header\head.html" />

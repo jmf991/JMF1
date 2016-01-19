@@ -688,8 +688,8 @@ pre {
 .para-item-wrapper .item10 {
   width: 140px;
   height: 40px;
-  opacity: 0.5;
-  left: calc(50% - 246px);
+  opacity: 0.3;
+  left: calc(50% - 249px);
   top: calc(50% - 338px);
   position: absolute;
   margin-left: 10%; }
@@ -697,8 +697,8 @@ pre {
 .para-item-wrapper .item11 {
   width: 140px;
   height: 40px;
-  opacity: 0.5;
-  left: calc(50% - 194px);
+  opacity: 0.3;
+  left: calc(50% - 197px);
   top: calc(50% - 338px);
   position: absolute;
   margin-left: 10%; }
@@ -706,7 +706,7 @@ pre {
 .para-item-wrapper .item12 {
   width: 140px;
   height: 40px;
-  opacity: 0.5;
+  opacity: 0.3;
   left: calc(50% - 95px);
   top: calc(50% - 338px);
   position: absolute;

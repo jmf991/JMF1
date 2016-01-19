@@ -41,9 +41,9 @@
         <!--#include virtual="/statics/content/modules/contactSection/contactSection.html"-->
     </section>
     <!--footer-->
-    <!--/ header -->
+    <!--#include virtual="/statics/content/modules/footerSection/footerSection.html"-->
 
-    <script src="/assets/scripts/lib/parallax-mouse.js"></script>
+   
 </body>
 </html>
 
