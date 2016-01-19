@@ -3,7 +3,7 @@
 .accordions-wrapper { margin-bottom: 40px; }
 .accordion { margin-bottom: 10px; }
 .accordion .accordion-heading { background-color: $box-color; color: White; cursor: pointer; display: block; padding: 10px; padding-right: 30px; position: relative; }
-.accordion .accordion-heading.active, .accordion .accordion-heading:hover { background: $primary-color;     @extend .smooth-transition  }
+.accordion .accordion-heading.active, .accordion .accordion-heading:hover { background: $primary-color; @extend .smooth-transition  }
 .accordion .accordion-content { overflow: hidden; display: none; }
 .accordion .accordion-content .accordion-content-inner { padding: 5px; }
 .accordion-indicator { position: absolute; right: 10px; top: 50%; height: 20px; margin-top: -10px; }

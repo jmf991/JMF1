@@ -1487,6 +1487,51 @@ ul.tabs-menu {
   .drop-down-menu {
     display: block !important;
     opacity: 1 !important; } }
+/*tablet and below*/
+@media only screen and (max-width: 960px) {
+  .drop-down-wrapper {
+    margin-bottom: 180px; }
+
+  .drop-down-menu .menu-item {
+    display: block; }
+
+  .drop-down-menu .menu-item a {
+    display: block;
+    padding: 10px 20px;
+    color: grey;
+    background-color: black; }
+
+  .drop-down-menu .drop-down {
+    position: relative;
+    overflow: hidden; }
+
+  .drop-down-menu .drop-down,
+  .drop-down-menu .drop-down .menu-item {
+    background-color: black;
+    top: 0 !important;
+    display: block; }
+
+  .drop-down-menu .drop-down .menu-item .menu-indicator:before {
+    content: "\f107"; }
+
+  .drop-down-menu .drop-down .drop-down {
+    left: 0; }
+
+  .drop-down-menu .drop-down .menu-item .drop-down .menu-item a {
+    color: #333333; }
+
+  .mobile-nav-trigger {
+    display: none; }
+
+  .drop-down-menu {
+    display: block;
+    width: 100%;
+    clear: both;
+    border: none; }
+
+  .drop-down-menu .menu-item:hover .drop-down,
+  .drop-down-menu .menu-item:hover .drop-down .menu-item:hover .drop-down {
+    display: block; } }
 /*******DROPDOWN MENU END******/
 /********** START LIGHTBOX OVERLAY **********/
 .overlay-bg {
