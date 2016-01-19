@@ -1928,6 +1928,11 @@ table tr td {
   background: transparent;
   margin-bottom: 40px; }
 
+@media only screen and (max-width: 960px) {
+  .parallax-banner-window {
+    display: none;
+    height: 0%;
+    width: 0%; } }
 /*titles*/
 .logo-title {
   color: white;
@@ -2016,10 +2021,10 @@ table tr td {
     cursor: pointer; }
 
   li:first-child {
-    border-top: solid grey 6px; }
+    border-top: solid grey 3px; }
 
   li:nth-child(4n+5) {
-    border-bottom: solid grey 6px; } }
+    border-bottom: solid grey 3px; } }
 /*general styles*/
 .extra-fucking-big {
   font-size: 100px; }
