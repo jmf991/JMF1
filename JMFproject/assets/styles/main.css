@@ -598,7 +598,7 @@ pre {
   min-height: 640px; }
 
 .parallax-wrapper {
-  z-index: 1;
+  z-index: 0;
   overflow: hidden;
   position: fixed;
   top: 0;
