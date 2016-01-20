@@ -770,13 +770,13 @@ pre {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-transition: all 3s ease-in-out;
-  -moz-transition: all 3s ease-in-out;
-  -o-transition: all 3s ease-in-out;
-  -ms-transition: all 3s ease-in-out; }
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out; }
 
 .monitor-scroll:hover .monitor-scroll-inner img {
-  top: -410%; }
+  top: -160%; }
 
 /*laptop*/
 .laptop-scroll {
@@ -801,13 +801,13 @@ pre {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out; }
+  -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 3s ease-in-out;
+  -o-transition: all 3s ease-in-out;
+  -ms-transition: all 3s ease-in-out; }
 
 .laptop-scroll:hover .laptop-scroll-inner img {
-  top: -30%; }
+  top: -360%; }
 
 /*tablet*/
 .tablet-scroll {
@@ -832,13 +832,13 @@ pre {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out; }
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out; }
 
 .tablet-scroll:hover .tablet-scroll-inner img {
-  top: -80%; }
+  top: -610%; }
 
 /*mobile*/
 .mobile-scroll {
@@ -863,13 +863,13 @@ pre {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out; }
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out; }
 
 .mobile-scroll:hover .mobile-scroll-inner img {
-  top: -200%; }
+  top: -370%; }
 
 /********** START MODULES **********/
 /********** START FORMS **********/
