@@ -4,7 +4,9 @@
 }
 
 .parallax-wrapper {
-    position: absolute;
+    z-index:1;
+    overflow:hidden;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

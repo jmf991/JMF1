@@ -356,6 +356,9 @@ input[type="button"]:active,
   -ms-transition: all 0.3s ease-in-out; }
 
 /********** START FONT **********/
+body {
+  z-index: 0; }
+
 h1, .h1 {
   font-size: 64px;
   line-height: 70px; }
@@ -595,7 +598,9 @@ pre {
   min-height: 640px; }
 
 .parallax-wrapper {
-  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

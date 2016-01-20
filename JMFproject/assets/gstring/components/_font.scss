@@ -1,5 +1,5 @@
 /********** START FONT **********/
-body { @extend .global-font; }
+body { @extend .global-font; z-index:0; }
 h1, .h1 { font-size: 64px; line-height: 70px; @extend .headers }
 h2, .h2 { font-size: 44px; line-height: 48px; @extend .headers  }
 h3, .h3 { font-size: 36px; line-height: 40px; @extend .headers  }
