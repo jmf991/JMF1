@@ -94,11 +94,9 @@
     <Content Include="assets\images\samples\parallax-icon.png" />
     <Content Include="assets\images\samples\php-icon.png" />
     <Content Include="assets\images\samples\point of light.png" />
-    <Content Include="assets\images\samples\purplelightpoint.png" />
     <Content Include="assets\images\samples\screen-landing-content.jpg" />
     <Content Include="assets\images\samples\tablet3.png" />
     <Content Include="assets\images\samples\tools-icon.png" />
-    <Content Include="assets\images\samples\yellow light.png" />
     <Content Include="assets\images\SplitShire-03692.jpg" />
     <Content Include="assets\images\tablet2.png" />
     <Content Include="assets\scripts\functions.js" />
@@ -165,6 +163,7 @@
     <Content Include="statics\content\modules\footerSection\footerSection.html" />
     <Content Include="statics\content\modules\gridSection\gridSection.html" />
     <Content Include="statics\content\modules\gridSection\gridSection2.html" />
+    <Content Include="statics\master\footer\footer.html" />
     <Content Include="statics\master\header\head.html" />
     <Content Include="statics\master\header\header.html" />
     <Content Include="statics\master\header\headerBottom.html" />
@@ -183,7 +182,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="statics\master\footer\" />
     <Folder Include="templates\" />
   </ItemGroup>
   <PropertyGroup>

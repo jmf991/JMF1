@@ -25,14 +25,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
 }
 
 .monitor-scroll:hover .monitor-scroll-inner img {
-    top: -890%;
+    top: -410%;
 }
 
 /*laptop*/
@@ -68,7 +68,7 @@
 }
 
 .laptop-scroll:hover .laptop-scroll-inner img {
-    top: -800%;
+    top: -30%;
 }
 
 /*tablet*/
@@ -104,7 +104,7 @@
 }
 
 .tablet-scroll:hover .tablet-scroll-inner img {
-    top: -330%;
+    top: -80%;
 }
 
 /*mobile*/
@@ -140,5 +140,5 @@
 }
 
 .mobile-scroll:hover .mobile-scroll-inner img {
-    top: -270%;
+    top: -200%;
 }
