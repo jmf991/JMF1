@@ -58,11 +58,11 @@
 }
 
 .para-item-wrapper .item5 {
-    width: 40px;
-    height: 40px;
+    width: 200px;
+    height: 200px;
     opacity: 0.1;
-    left: calc(50% - 550px);
-    top: calc(50% - 140px);
+    left: calc(50% - 745px);
+    top: calc(50% - -59px);
     position: absolute;
     margin-left: 10%;
 }
@@ -85,11 +85,11 @@
     margin-left: 10%;
 }
 .para-item-wrapper .item8 {
-    width: 30px;
-    height: 40px;
-    opacity: 0.1;
-    left: calc(5% - 20px);
-    top: calc(13% - 20px);
+    width: 700px;
+    height: 700px;
+    opacity: 0.02;
+    left: calc(5% - 350px);
+    top: calc(50% - 500px);
     position: absolute;
     margin-left: 10%;
 }
@@ -102,56 +102,21 @@
     position: absolute;
     margin-left: 10%;
 }
-
-
-/*title items*/
 .para-item-wrapper .item10 {
-    width: 140px;
-    height: 40px;
-    opacity: 0.3;
-    left: calc(50% - 247px);
-    top: calc(50% - 338px);
+    width: 800px;
+    height: 800px;
+    opacity: 0.01;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
     position: absolute;
     margin-left: 10%;
 }
 .para-item-wrapper .item11 {
-    width: 140px;
-    height: 40px;
-    opacity: 0.3;
-    left: calc(50% - 195px);
-    top: calc(50% - 338px);
-    position: absolute;
-    margin-left: 10%;
-}
-.para-item-wrapper .item12 {
-    width: 140px;
-    height: 40px;
-    opacity: 0.3;
-    left: calc(50% - 95px);
-    top: calc(50% - 338px);
-    position: absolute;
-    margin-left: 10%;
-}
-
-@media only screen and (max-width: $mobile) {
-.para-item-wrapper .item10 {left: calc(50% - 179px);top: calc(50% - 303px);}
-.para-item-wrapper .item11 {left: calc(50% - 100px);top: calc(50% - 303px);}
-.para-item-wrapper .item12 {left: calc(50% - 30px);top: calc(50% - 303px);}
-}
-@media only screen and (max-width: $tablet) {
-.para-item-wrapper .item10 {left: calc(50% - 192px);top: calc(50% - 303px);}
-.para-item-wrapper .item11 {left: calc(50% - 143px);top: calc(50% - 303px);}
-.para-item-wrapper .item12 {left: calc(50% - 40px);top: calc(50% - 303px);}
-}
-/*title items*/
-
-
-.para-item-wrapper .item13 {
     width: 250px;
     height: 250px;
-    opacity: 0.6;
-    left: calc(0% - 10px);
-    top: calc(65% - 10px);
+    opacity: 0.05;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
     position: absolute;
     margin-left: 10%;
 }
