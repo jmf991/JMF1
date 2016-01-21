@@ -419,6 +419,14 @@ a:hover, a:focus, a.active {
   color: #F7CE58; }
 
 /********** END FONT **********/
+.active {
+  color: #fff !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
 body {
   z-index: 0;
   margin: 0;
@@ -596,7 +604,7 @@ pre {
     width: 8.333332%; } }
 .header-bottom {
   background: url(/assets/images/blurry-circles.png) no-repeat 0 0 transparent;
-  min-height: 640px; }
+  min-height: 40px; }
 
 .parallax-wrapper {
   z-index: 0;

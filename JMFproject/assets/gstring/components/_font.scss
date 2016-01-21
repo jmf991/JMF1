@@ -21,3 +21,12 @@ small { font-size: 0.7em; line-height: 1em; }
 a { color: #8c8989; text-decoration: none; }
 a:hover, a:focus, a.active { text-decoration: underline; color: $active-color;   @extend .smooth-transition  }
 /********** END FONT **********/
+
+.active {
+    color: #fff !important;    
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
