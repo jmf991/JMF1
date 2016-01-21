@@ -45,5 +45,5 @@
     <script src="/assets/scripts/lib/parallax-mouse.js"></script>
     <script src="//cdn.jsdelivr.net/stickynavbar.js/1.1.2/jquery.stickyNavbar.min.js"></script>
 </body>
-    
+
 </html>
