@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css.css" />
     <Content Include="assets\gstring\components\icons\css\font-awesome-ie7.css" />
     <Content Include="assets\gstring\components\icons\css\font-awesome.min.css" />
     <Content Include="assets\gstring\components\icons\fonts\fontawesome-webfont.svg" />
@@ -176,6 +177,7 @@
     <Content Include="statics\master\header\headerBottom.html" />
     <Content Include="statics\master\header\headerTop.html" />
     <Content Include="statics\master\header\navigationBar.html" />
+    <Content Include="templates\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -188,9 +190,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="templates\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
