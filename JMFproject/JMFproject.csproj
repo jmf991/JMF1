@@ -88,6 +88,7 @@
     <Content Include="assets\images\laptop2.png" />
     <Content Include="assets\images\mobile2.png" />
     <Content Include="assets\images\platforms2.png" />
+    <Content Include="assets\images\samples\email-icon-small.png" />
     <Content Include="assets\images\samples\html5-icon.png" />
     <Content Include="assets\images\samples\imagsadddsaes.jpg" />
     <Content Include="assets\images\samples\invesmix-homepage-mobile.png" />
