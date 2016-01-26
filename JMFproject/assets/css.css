@@ -3369,12 +3369,12 @@
 /********** START font **********/
 /********** START FONT **********/
 body { font-family: Arial; font-size: 14px; line-height: 18px; font-weight: 400; color: #333;; z-index:0; }
-h1, .h1 { font-size: 64px; line-height: 70px; margin: 0 0 10px 0; font-weight: 1000; font-family: 'Poiret One', cursive; }
-h2, .h2 { font-size: 44px; line-height: 48px; margin: 0 0 10px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
-h3, .h3 { font-size: 36px; line-height: 40px; margin: 0 0 10px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
-h4, .h4 { font-size: 32px; line-height: 36px; margin: 0 0 10px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
-h5, .h5 { font-size: 24px; line-height: 28px; margin: 0 0 10px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
-h6, .h6 { font-size: 20px; line-height: 24px; margin: 0 0 10px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
+h1, .h1 { font-size: 64px; line-height: 70px; margin: 0 0 20px 0; font-weight: 1000; font-family: 'Poiret One', cursive; }
+h2, .h2 { font-size: 44px; line-height: 48px; margin: 0 0 0px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
+h3, .h3 { font-size: 36px; line-height: 40px; margin: 0 0 20px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
+h4, .h4 { font-size: 32px; line-height: 36px; margin: 0 0 20px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
+h5, .h5 { font-size: 24px; line-height: 28px; margin: 0 0 20px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
+h6, .h6 { font-size: 20px; line-height: 24px; margin: 0 0 20px 0; font-weight: 1000; font-family: 'Poiret One', cursive;  }
 p, .p {  font-family: Arial; font-size: 14px; line-height: 18px; font-weight: 400; color: #333;;  margin: 0 0 $global-margin*2 0; }
 small { font-size: 0.7em; line-height: 1em; }
 
