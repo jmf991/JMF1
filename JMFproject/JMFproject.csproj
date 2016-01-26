@@ -81,6 +81,7 @@
     <Content Include="assets\images\samples\Blue-Soft-Backgroun-1024.jpg" />
     <Content Include="assets\images\samples\blurred-image-7588-7881-hd-wallpapers.jpg" />
     <Content Include="assets\images\samples\blurred-w.jpg" />
+    <Content Include="assets\images\samples\blurry_b.jpg" />
     <Content Include="assets\images\samples\cms-icon.png" />
     <Content Include="assets\images\samples\corporateSKY-skyQPage.png" />
     <Content Include="assets\images\samples\corporateSKY-tablet.png" />
@@ -156,6 +157,7 @@
     <Content Include="assets\gstring\components\modules\_parallax.scss" />
     <Content Include="assets\gstring\components\modules\_scroll.scss" />
     <Content Include="assets\images\samples\laptop3.xcf" />
+    <Content Include="assets\sendemail.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -179,6 +181,7 @@
     <Content Include="statics\master\header\headerTop.html" />
     <Content Include="statics\master\header\navigationBar.html" />
     <Content Include="templates\index.html" />
+    <Content Include="templates\thanks.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

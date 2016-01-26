@@ -245,7 +245,7 @@
     </section>
     <section>
         <!--banner 2 section -->
-        <div class="parallax-banner-window" data-parallax="scroll" data-image-src="/assets/images/samples/blurred-w.jpg">
+        <div class="parallax-banner-window" data-parallax="scroll" data-image-src="/assets/images/samples/blurry_b.jpg">
             <div class="box-container-wide tc">
                 <div class="box-12">
                     <div class="inner">
@@ -291,8 +291,7 @@
                 <div class="box-12">
                     <div class="inner">
                         <h2><span class="logo-title-small">"THE ART IS </span></h2>
-                        <h3><span class="black">INVENTION OF DETAIL,</span></h3>
-                        <h3><span class="black">CARE OF EXECUTION"</span></h3>
+                        <h3><span class="black">INVENTION OF DETAIL, CARE OF EXECUTION"</span></h3>
                         <h4>Theophile Gautier</h4>
                     </div>
                 </div>
@@ -306,25 +305,25 @@
             <a href="contact"></a>
             <div class="box-container">
                 <div class="contact-form-wrap pb40 mb40">
-                    <form action="" method="post">
+                    <form action="/assets/sendemail.php" method="post">
                         <div class="box-4">
                             <div class="inner">
-                                <input type="text" class="global-border" title="lorem ipsum" name="contact-name" value="" id="contact-name" aria-required="true" aria-invalid="false" placeholder="Your Name">
+                                <input type="text" class="global-border" title="lorem ipsum" name="name" value="" id="name" aria-required="true" aria-invalid="false" placeholder="Your Name">
                             </div>
                         </div>
                         <div class="box-4">
                             <div class="inner">
-                                <input type="text" class="global-border" title="lorem ipsum" name="contact-email" value="" id="contact-email" aria-required="true" aria-invalid="false" placeholder="Contact E-mail">
+                                <input type="text" class="global-border" title="lorem ipsum" name="email" value="" id="email" aria-required="true" aria-invalid="false" placeholder="Contact E-mail">
                             </div>
                         </div>
                         <div class="box-4">
                             <div class="inner">
-                                <input type="text" class="global-border" title="lorem ipsum" name="contact-phone" value="" id="contact-phone" aria-required="true" aria-invalid="false" placeholder="Phone No">
+                                <input type="text" class="global-border" title="lorem ipsum" name="phone" value="" id="phone" aria-required="true" aria-invalid="false" placeholder="Phone No">
                             </div>
                         </div>
                         <div class="box-12 mb20">
                             <div class="inner">
-                                <textarea title="lorem ipsum" class="big-text-area global-border" name="your-question" id="your-question" placeholder="Your Question"></textarea>
+                                <textarea title="lorem ipsum" class="big-text-area global-border" name="message" id="message" placeholder="Your Question"></textarea>
                             </div>
                         </div>
                         <div class="box-12 ml10">
@@ -332,6 +331,7 @@
                                 <div class="button">
                                     <div class="inner btn-border-bottom">
                                         <input type="submit" value="SUBMIT" name="submit" class="m0 white" />
+                                        <?php require 'sendemail3.php';?>
                                     </div>
                                 </div>
                             </div>
