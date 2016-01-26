@@ -3797,7 +3797,7 @@ input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover, 
 .btn:focus, 
-.btn.active { text-decoration: none; background: #F7CE58; color: #EEEEEE;  	-webkit-transition: all 0.3s ease-in-out;
+.btn.active { text-decoration: none; color: #F7CE58;  	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition:    all 0.3s ease-in-out;
 	-o-transition:      all 0.3s ease-in-out;
 	-ms-transition:     all 0.3s ease-in-out;  }
