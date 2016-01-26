@@ -1520,13 +1520,13 @@ ul.tabs-menu {
   .drop-down-menu {
     display: block !important;
     opacity: 1 !important; } }
-/*tablet and below*/
+/*tablet*/
 @media only screen and (max-width: 960px) {
   .drop-down-wrapper {
     margin-bottom: 180px; }
 
   .drop-down-menu .menu-item {
-    display: block; }
+    display: inline-block; }
 
   .drop-down-menu .menu-item a {
     display: block;
@@ -1565,6 +1565,13 @@ ul.tabs-menu {
   .drop-down-menu .menu-item:hover .drop-down,
   .drop-down-menu .menu-item:hover .drop-down .menu-item:hover .drop-down {
     display: block; } }
+/*mobile*/
+@media only screen and (max-width: 520px) {
+  .drop-down-wrapper {
+    margin-bottom: 180px; }
+
+  .drop-down-menu .menu-item {
+    display: none; } }
 /*******DROPDOWN MENU END******/
 /********** START LIGHTBOX OVERLAY **********/
 .overlay-bg {

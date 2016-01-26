@@ -119,12 +119,4 @@
         animation-duration: 1s;
         cursor: pointer;
     }
-
-    li:first-child {
-        border-top: solid grey 3px;
-    }
-
-    li:nth-child(4n+5) {
-        border-bottom: solid grey 3px;
-    }
 }
