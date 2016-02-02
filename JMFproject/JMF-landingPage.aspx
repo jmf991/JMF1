@@ -33,7 +33,7 @@
         <!--#include virtual="/statics/content/modules/aboutSection/aboutSection.html"-->
     </section>
     <section>
-        <!--contact section -->
+        <!--banner 3 section -->
         <!--#include virtual="/statics/content/modules/bannerParallaxSection/bannerParallaxSection3.html"-->
     </section>
     <section>
